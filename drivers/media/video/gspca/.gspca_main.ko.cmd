@@ -1,0 +1,1 @@
+cmd_drivers/media/video/gspca/gspca_main.ko := arm-eabi-ld -EL -r  -T /data/repos/kernels/scripts/module-common.lds --build-id -o drivers/media/video/gspca/gspca_main.ko drivers/media/video/gspca/gspca_main.o drivers/media/video/gspca/gspca_main.mod.o

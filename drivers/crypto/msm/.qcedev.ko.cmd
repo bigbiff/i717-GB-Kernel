@@ -1,0 +1,1 @@
+cmd_drivers/crypto/msm/qcedev.ko := arm-eabi-ld -EL -r  -T /data/repos/kernels/scripts/module-common.lds --build-id -o drivers/crypto/msm/qcedev.ko drivers/crypto/msm/qcedev.o drivers/crypto/msm/qcedev.mod.o

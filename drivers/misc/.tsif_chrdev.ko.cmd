@@ -1,0 +1,1 @@
+cmd_drivers/misc/tsif_chrdev.ko := arm-eabi-ld -EL -r  -T /data/repos/kernels/scripts/module-common.lds --build-id -o drivers/misc/tsif_chrdev.ko drivers/misc/tsif_chrdev.o drivers/misc/tsif_chrdev.mod.o

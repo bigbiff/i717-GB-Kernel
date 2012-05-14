@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/bcm4330/dhd.ko := arm-eabi-ld -EL -r  -T /data/repos/kernels/scripts/module-common.lds --build-id -o drivers/net/wireless/bcm4330/dhd.ko drivers/net/wireless/bcm4330/dhd.o drivers/net/wireless/bcm4330/dhd.mod.o

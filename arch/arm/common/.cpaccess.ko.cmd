@@ -1,0 +1,1 @@
+cmd_arch/arm/common/cpaccess.ko := arm-eabi-ld -EL -r  -T /data/repos/kernels/scripts/module-common.lds --build-id -o arch/arm/common/cpaccess.ko arch/arm/common/cpaccess.o arch/arm/common/cpaccess.mod.o

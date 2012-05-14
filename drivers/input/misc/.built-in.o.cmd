@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/uinput.o drivers/input/misc/pmic8058-pwrkey.o drivers/input/misc/pmic8058-othc.o drivers/input/misc/bmp180.o 

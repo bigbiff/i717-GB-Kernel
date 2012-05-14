@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-msm/dal_remotetest.ko := arm-eabi-ld -EL -r  -T /data/repos/kernels/scripts/module-common.lds --build-id -o arch/arm/mach-msm/dal_remotetest.ko arch/arm/mach-msm/dal_remotetest.o arch/arm/mach-msm/dal_remotetest.mod.o

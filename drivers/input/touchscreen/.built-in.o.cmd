@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/atmel_maxtouch.o drivers/input/touchscreen/mxt540e_q1.o drivers/input/touchscreen/wacom_i2c.o drivers/input/touchscreen/wacom_i2c_firm.o drivers/input/touchscreen/wacom_i2c_flash.o drivers/input/touchscreen/wacom_i2c_func.o 
